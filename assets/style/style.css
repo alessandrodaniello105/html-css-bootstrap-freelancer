@@ -1,6 +1,7 @@
 :root {
   --bg-section: #1ABC9C;
-  --bg-header: #2C3E50;
+  --bg-header-footer: #2C3E50;
+  --bg-where-us: #3A546D;
 }
 
 .debug-y-0 {
@@ -12,8 +13,22 @@
   min-height: 80px;
   background-color: rgba(150, 37, 37, 0.2); 
   border: 1px solid;
-
 }
+
+.container-ctm {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.bg-green {
+  background-color: var(--bg-section);
+}
+
+.bg-where-us {
+  background-color: var(--bg-where-us);
+}
+
+
 
 nav ul > li {
   list-style: none;
@@ -22,13 +37,4 @@ nav ul > li {
 
 nav ul > li > a {
   text-decoration: none;
-}
-
-.bg-green {
-  background-color: var(--bg-section);
-}
-
-.container-ctm {
-  width: 70%;
-  margin: 0 auto;
 }

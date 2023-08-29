@@ -1,3 +1,8 @@
+:root {
+  --bg-section: #1ABC9C;
+  --bg-header: #2C3E50;
+}
+
 .debug-y-0 {
   background-color: rgba(150, 37, 37, 0.2); 
   border: 1px solid;
@@ -17,4 +22,8 @@ nav ul > li {
 
 nav ul > li > a {
   text-decoration: none;
+}
+
+.bg-green {
+  background-color: var(--bg-section);
 }

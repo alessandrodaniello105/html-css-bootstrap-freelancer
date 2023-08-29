@@ -28,7 +28,10 @@
   background-color: var(--bg-where-us);
 }
 
-
+.bg-header,
+.bg-footer {
+  background-color: var(--bg-header-footer);
+}
 
 nav ul > li {
   list-style: none;

@@ -1,0 +1,20 @@
+.debug-y-0 {
+  background-color: rgba(150, 37, 37, 0.2); 
+  border: 1px solid;
+}
+
+.debug {
+  min-height: 80px;
+  background-color: rgba(150, 37, 37, 0.2); 
+  border: 1px solid;
+
+}
+
+nav ul > li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul > li > a {
+  text-decoration: none;
+}

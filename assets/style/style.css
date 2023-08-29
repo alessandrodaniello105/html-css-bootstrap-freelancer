@@ -27,3 +27,8 @@ nav ul > li > a {
 .bg-green {
   background-color: var(--bg-section);
 }
+
+.container-ctm {
+  width: 90%;
+  margin: 0 auto;
+}

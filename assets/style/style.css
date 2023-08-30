@@ -73,9 +73,13 @@ h4 {
   border-radius: 15px;
 }
 
+.line_ctm.black {
+  background-color: black;
+}
+
 .fa-solid.fa-star {
   font-size: 2rem;
-  color: white;
+  /* color: white; */
   /* width: 50px;
   height: 50px; */
 }
@@ -161,6 +165,21 @@ main .jumbotron_ctm .jobs h4 {
   font-size: 1.5rem;
   font-weight: 500;
 } */
+
+/****************
+    PORTFOLIO
+****************/
+
+main .portfolio {
+  color: black;
+}
+
+
+main .portfolio h4 {
+  font-size: 24px;
+}
+
+
 
 /*********************
         FOOTER

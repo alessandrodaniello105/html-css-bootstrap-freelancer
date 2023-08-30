@@ -214,9 +214,8 @@ main .portfolio {
 
 
 
-
 /****************
-    PORTFOLIO
+      ABOUT
 ****************/
 
 main .about {
@@ -227,6 +226,18 @@ main .about p {
   font-size: 19px;
   font-weight: 600;
 }
+
+
+
+/****************
+    CONTACT ME
+****************/
+
+main .contact-me #name::placeholder {
+  color: black;
+}
+
+
 
 
 /*********************

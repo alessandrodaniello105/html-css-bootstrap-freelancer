@@ -166,6 +166,9 @@ header nav button.menu_btn i {
         MAIN
 *********************/
 
+main .intro-text h4 {
+  font-size: 24px;
+}
 
 /****************
     JUMBOTRON
@@ -210,11 +213,20 @@ main .portfolio {
 }
 
 
-main .portfolio h4 {
-  font-size: 24px;
+
+
+/****************
+    PORTFOLIO
+****************/
+
+main .about {
+  color: white;
 }
 
-
+main .about p {
+  font-size: 19px;
+  font-weight: 600;
+}
 
 
 /*********************

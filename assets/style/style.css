@@ -4,6 +4,32 @@
   --bg-where-us: #3A546D;
 }
 
+.bg-green {
+  background-color: var(--bg-section);
+}
+
+.bg-where-us {
+  background-color: var(--bg-where-us);
+}
+
+.bg-header,
+.bg-footer {
+  background-color: var(--bg-header-footer);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+/*********************
+        UTILITY
+*********************/
+
 .debug-y-0 {
   background-color: rgba(150, 37, 37, 0.2); 
   border: 1px solid;
@@ -20,38 +46,34 @@
   margin: 0 auto;
 }
 
-.bg-green {
-  background-color: var(--bg-section);
-}
 
-.bg-where-us {
-  background-color: var(--bg-where-us);
-}
+/*********************
+          NAV
+*********************/
 
-.bg-header,
-.bg-footer {
-  background-color: var(--bg-header-footer);
-}
 
-nav ul > li {
+header nav ul > li {
   list-style: none;
   display: inline-block;
 }
 
-nav ul > li > a {
+header nav ul > li > a {
   text-decoration: none;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 3rem;
+header nav button.menu_btn i {
+  position: relative;
+  /* top: 2px; */
+  color: #888;
+  font-size: 1.2rem;
 }
 
-h4 {
-  font-weight: 600;
-}
 
-footer section.rights {
+/*********************
+        FOOTER
+*********************/
+
+footer section.footer-bottom {
   height: 100px;
   color: white;
 }

@@ -67,7 +67,7 @@ h4 {
 
 .line_ctm {
   display: inline-block;
-  width: 100%;
+  width: 70%;
   height: 5px;
   background-color: white;
   border-radius: 15px;
@@ -147,6 +147,11 @@ main .jumbotron_ctm h2 {
 main .jumbotron_ctm h1 {
   font-size: 4rem;
 }
+/* 
+main .jumbotron_ctm .jobs h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+} */
 
 /*********************
         FOOTER

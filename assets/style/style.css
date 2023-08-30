@@ -233,12 +233,28 @@ main .about p {
     CONTACT ME
 ****************/
 
-main .contact-me #name::placeholder {
-  color: black;
+main .contact-me .input_ctm {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
 }
 
+main .contact-me .input_ctm::placeholder {
+  color: black;
+  font-size: 1.2rem;
+}
 
+main .contact-me button {
+  font-size: 1rem;
+  border-color: var(--bg-section);
+}
 
+main .contact-me button:hover {
+  background-color: #138f76;
+  border-color: #138f76;
+}
 
 /*********************
         FOOTER

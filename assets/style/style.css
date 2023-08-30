@@ -95,6 +95,24 @@ header nav button.menu_btn i {
 }
 
 
+
+
+/*********************
+        MAIN
+*********************/
+
+
+/****************
+    JUMBOTRON
+****************/
+
+main .jumbotron_ctm img {
+  width: 260px;
+  height: 260px;
+  object-fit: contain1;
+}
+
+
 /*********************
         FOOTER
 *********************/

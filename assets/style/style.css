@@ -99,6 +99,12 @@ h4 {
 }
 
 
+.container-ctm-2 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+
 /* PARTITIONING LINE */
 
 .line_ctm {
@@ -126,8 +132,11 @@ h4 {
 *********************/
 
 header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
   height: 90px;
-}
+  }
 
 header a {
   color: white;
@@ -165,6 +174,10 @@ header nav button.menu_btn i {
 /*********************
         MAIN
 *********************/
+
+main {
+  padding-top: 90px;
+}
 
 main .intro-text h4 {
   font-size: 24px;
@@ -256,11 +269,42 @@ main .contact-me button:hover {
   border-color: #138f76;
 }
 
+
+
 /*********************
         FOOTER
 *********************/
 
-footer section.footer-bottom {
-  height: 100px;
+footer {
   color: white;
+}
+
+footer .footer-top h3 {
+  font-weight: 600;
+}
+
+footer .footer-top h6 {
+  font-weight: 600;
+}
+
+footer .footer-top p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer .footer-top i {
+  flex-shrink: 0;
+  width: 60px;
+  font-size: 22px;
+  padding: 15px;
+  margin: 0 7px;
+  border: 1px solid white;
+  border-radius: 50%;
+
+}
+
+footer .footer-bottom {
+  height: 100px;
+  font-size: 14px;
+  font-weight: 600;
 }

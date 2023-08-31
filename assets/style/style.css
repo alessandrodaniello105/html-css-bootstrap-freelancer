@@ -292,7 +292,7 @@ footer .footer-top p {
   font-weight: 600;
 }
 
-footer .footer-top i {
+footer .footer-top a > i {
   flex-shrink: 0;
   width: 60px;
   font-size: 22px;
@@ -300,7 +300,16 @@ footer .footer-top i {
   margin: 0 7px;
   border: 1px solid white;
   border-radius: 50%;
+  cursor: pointer;
+  color: white;
+}
 
+footer .footer-top p > a {
+  color: var(--bg-section);
+}
+
+footer .footer-top a:hover {
+  color: #138f76;
 }
 
 footer .footer-bottom {
